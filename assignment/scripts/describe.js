@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called name and set its value to the string Dane.
+// we check if name is equal to the string Mary.
+// it is not so we console log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create a variable named secret with no value assigned.
+// we create a variable named code and set its value to 123.
+// we check to see if code is equal to 123, it is so we assign the string super to the variable secret and multiply the value of code by 2.
+//we check if the new value of code is greater than 250, it is not so we console log 'super'.
 
 //CODE
 /*
@@ -70,9 +70,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we create 3 variables and assign each a value, isStudent is set to true, age is set to 34, and zip is set to 55407.
+// we check if isStudent is equal to true and if zip is greater than 80000, since only isStudent is correct we then check if isStudent is false or if age is less than 30.
+// neither of these are correct so, we then check if isStudent is equal to true. Since it is we console log 'Welcome to Prime!'
 //
 
 //CODE
@@ -132,10 +132,12 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+//fix- swap the values assigned to colorOne and colorTwo.
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // add the code colorTwo = 'purple'; to also reassing colorTwo to purple.
 }
 */
 
@@ -148,6 +150,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+  //fix - change || to &&
   console.log('throw away the food!');
 }
 */
@@ -162,6 +165,7 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+  // fix-  swap the  console log strings for the if and else statements.
 } else {
   console.log('enter');
 }
